@@ -1,0 +1,56 @@
+.card-container {
+	max-width: 96vw;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(4,55vh);
+	justify-content: center;
+	gap: 1rem;
+	margin: auto;
+	padding: 1em;
+}
+
+.item-main-div{
+	border: 1px solid purple;
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+	border-radius: 4px;
+	padding: 0.5em;
+}
+
+.image-holder-div{
+	display: flex;
+	height: 30vh;
+	justify-content:left;
+}
+.image-holder-div > img {
+	width: 70%;
+	object-fit: contain;
+}
+
+.author-name-para{
+	display: inline;
+	max-width: 14vw;
+	min-width: 12vw;
+	margin-top: 15vh;
+	margin-right: 2vw;
+	font-size: 22px;
+	font-weight: 600;
+}
+.title-div{
+	max-height: 8vh;
+	min-height: 8vh;
+	font-size: 20px;
+	font-weight: 600;
+	color: teal;
+}
+
+.article-link-div{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1vh;
+}
+
+.article-link-div > a {
+	margin-top: 2vh;
+}
